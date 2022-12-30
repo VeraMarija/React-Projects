@@ -22,7 +22,6 @@ function App() {
     <div className="app">
 
       <div className="search">
-
         <input
         value={location}
         onChange={event => setLocation(event.target.value)}
@@ -32,7 +31,6 @@ function App() {
         />
       </div>
 
-    
       <div className="container">
       { data.name != undefined && 
         <div className="top">
